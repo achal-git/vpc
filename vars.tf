@@ -13,3 +13,14 @@ variable "private_subnet" {
     type = list(string)
   
 }
+
+variable "env"{
+    type = string
+}
+variable "appname"{
+    type = string
+}
+
+variable "owner"{
+    type = string
+}
